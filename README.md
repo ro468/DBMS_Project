@@ -67,7 +67,7 @@ The application allows users to delete records.
 
 ### HTML Templates
 
-Templates are provided for various pages, such as 'company_info.html,' 'customer_dashboard.html,' 'customer_login.html,' 'edit_record.html,' 'employee_dashboard.html,' 'employee_login.html,' 'index.html,' 'new_user_signup.html,' and 'summary.html.' These templates use Jinja2 templating to embed dynamic data and logic within HTML.
+Templates are provided for various pages, such as 'company_info.html,' 'customer_dashboard.html,' 'customer_login.html,' 'edit_record.html,' 'employee_dashboard.html,' 'employee_login.html,' 'index.html,' 'new_user_signup.html.' These templates use Jinja2 templating to embed dynamic data and logic within HTML.
 
 ### JavaScript
 
