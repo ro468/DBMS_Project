@@ -42,7 +42,7 @@ Users can edit existing records, including updating the amount and due date.
 
 ### Delete Record
 
-The application allows users to delete records with a confirmation popup.
+The application allows users to delete records.
 
 ## Code Structure
 
