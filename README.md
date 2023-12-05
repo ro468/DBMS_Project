@@ -63,7 +63,7 @@ The application allows users to delete records.
 - Displays a list of companies for employees.
 - Allows customers to log in, redirecting them to their respective company information.
 - Enables new user sign-up, inserting data into the database.
-- Displays and edits company information, deletes records, saves record changes, and fetches a summary table.
+- Displays and edits company information, deletes records, saves record changes.
 
 ### HTML Templates
 
