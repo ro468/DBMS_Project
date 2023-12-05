@@ -71,7 +71,7 @@ Templates are provided for various pages, such as 'company_info.html,' 'customer
 
 ### JavaScript
 
-Includes JavaScript functions in the templates for handling actions like editing records, confirming record deletions, and fetching summary data asynchronously.
+Includes JavaScript functions in the templates for handling actions like editing records, confirming record deletions.
 
 ### CSS Styling
 
