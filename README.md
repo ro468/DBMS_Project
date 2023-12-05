@@ -22,5 +22,31 @@ Tax Tracker Company is designed to streamline the process of managing and tracki
 - Edit Record: Allows users to edit existing records, including updating the amount and due date.
 - Delete Record: Enables the deletion of records with a confirmation popup.
 
+1. **db.py:**
+   - Creates an SQLite database named 'my_database.db.'
+   - Defines a table named 'my_table' with columns (id, category, amount, date_paid, status, due_date).
+   - Inserts sample data into the table.
+
+2. **app.py:**
+   - Initializes a Flask web application.
+   - Connects to the SQLite database.
+   - Defines routes for home, employee login, customer login, new user signup, displaying company information, paying invoices, editing records, deleting records, saving records, and fetching summary.
+   - Uses Flask templates (Jinja2) for rendering HTML pages.
+   - Implements functions for database connection, closing, and rendering HTML pages.
+   - Handles login authentication based on a fixed password for employees.
+   - Displays a list of companies for employees.
+   - Allows customers to log in, redirecting them to their respective company information.
+   - Enables new user sign-up, inserting data into the database.
+   - Displays and edits company information, deletes records, saves record changes, and fetches a summary table.
+
+3. **HTML Templates:**
+   - Templates are provided for various pages, such as 'company_info.html,' 'customer_dashboard.html,' 'customer_login.html,' 'edit_record.html,' 'employee_dashboard.html,' 'employee_login.html,' 'index.html,' 'new_user_signup.html,' and 'summary.html.'
+   - These templates use Jinja2 templating to embed dynamic data and logic within HTML.
+
+4. **JavaScript:**
+   - Includes JavaScript functions in the templates for handling actions like editing records, confirming record deletions, and fetching summary data asynchronously.
+
+5. **CSS Styling:**
+   CSS styling is applied for front-end page aesthetics.
 
 
