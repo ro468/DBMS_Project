@@ -7,7 +7,7 @@ Tax Tracker Company is a web application built with Flask and SQLite for trackin
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [License](#license)
+
 
 ## Introduction
 
@@ -21,6 +21,6 @@ Tax Tracker Company is designed to streamline the process of managing and tracki
 - Company Information: Displays detailed information about a specific company, including payment status, due dates, and the ability to pay invoices.
 - Edit Record: Allows users to edit existing records, including updating the amount and due date.
 - Delete Record: Enables the deletion of records with a confirmation popup.
-- Summary Table: Provides a dynamic summary table based on the selected due date, showing total amounts, tax rates, and tax due.
+
 
 
