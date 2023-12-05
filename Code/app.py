@@ -49,7 +49,7 @@ def employee_login():
     return render_template('employee_login.html')  # Display the login form for GET requests
 
 
-# Define the route for displaying company information
+
 # Define the route for customer login
 
 @app.route('/customer_login', methods=['GET', 'POST'])
